@@ -10,7 +10,7 @@ import org.xml.sax.helpers.DefaultHandler;
  * Created by Student on 2018/1/10.
  */
 
-//要讀RSSD的方法有很多，如DOM、SAX XML Parser等等，老師這裡教的是SAX
+//要讀RSSD的方法有很多，如DOM、SAX XML Parser等等，老師這裡教的是SAX，用最麻煩，最原始的寫法，下次再教用picasso寫
 public class MyHandler extends DefaultHandler { //自己創一個MyHandler Class，要繼承DefaultHandler(org.xml.sax.helpers)，
     boolean isTitle = false;
 
